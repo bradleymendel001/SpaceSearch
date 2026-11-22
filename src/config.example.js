@@ -1,0 +1,11 @@
+export const firebaseConfig = {
+  apiKey: "PASTE_YOUR_FIREBASE_API_KEY",
+  authDomain: "your-project.firebaseapp.com",
+  projectId: "your-project",
+  storageBucket: "your-project.firebasestorage.app",
+  messagingSenderId: "000000000000",
+  appId: "1:000000000000:web:0000000000000000",
+  measurementId: "G-XXXXXXXXXX"
+};
+
+export const isFirebaseConfigured = !firebaseConfig.apiKey.startsWith('PASTE_');
